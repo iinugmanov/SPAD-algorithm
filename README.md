@@ -6,9 +6,7 @@ that level, and cuts the dense events into seismogenic patches.
 
 The radius is a power mean of the pairwise hypocentral distances. The
 density is a linear kernel. Dense groups and patches are both
-centroid-linkage cuts. Declustering, and the alpha-filtration used in
-the companion implementation, are described in
-[iinugmanov/SPAD](https://github.com/iinugmanov/SPAD). The formulas
+centroid-linkage cuts. The formulas
 used here are in [`docs/algorithm.md`](docs/algorithm.md).
 
 ## Installation
